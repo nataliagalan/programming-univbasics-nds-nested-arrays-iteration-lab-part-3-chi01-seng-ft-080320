@@ -8,6 +8,6 @@ string = []
       string << element
     end
   end
-  [string.join(" ")]
-end
+  string
+ end
 end
