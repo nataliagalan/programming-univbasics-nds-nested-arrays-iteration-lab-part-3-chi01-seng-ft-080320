@@ -4,6 +4,7 @@ def join_nested_strings(src)
 
   #flat_map Returns a new array with the concatenated results of running block once for every element in enum.
   sentence = src.flat_map do |elements|
+    binding.pry
     elements.select { |element| element.class == String }
   end.join(" ")
 
