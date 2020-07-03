@@ -10,5 +10,3 @@ string = []
   end
   [string.join(" ")]
 end
-
-
