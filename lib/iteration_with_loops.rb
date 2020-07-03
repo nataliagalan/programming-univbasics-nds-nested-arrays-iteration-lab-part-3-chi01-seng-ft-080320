@@ -8,6 +8,6 @@ def join_nested_strings(src)
       string << element
     end
   end
-  string
+  p string
  end
 end
